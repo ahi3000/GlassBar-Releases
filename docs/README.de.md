@@ -82,6 +82,8 @@ Voraussetzungen: Windows 11 und die **[.NET 10 Desktop Runtime](https://dotnet.m
 
 **Updates:** Einstellungen → System → automatische Update-Prüfung einschalten. GlassBar schaut dann alle 6 Stunden auf dieser Seite nach – ohne Konto – und installiert neue Versionen per Klick; deine Einstellungen in `%AppData%\GlassBar` bleiben erhalten.
 
+**Prüfsumme:** Zu jeder Zip gibt es eine `.sha256`-Datei. Das Update prüft sie vor dem Installieren; einen Download von Hand prüfst du mit `Get-FileHash GlassBar-<Version>-win-x64.zip` und vergleichst mit dem Inhalt der Datei.
+
 **Beenden:** Rechtsklick aufs Dock → „GlassBar beenden“ oder `GlassBar.exe --exit`. Die Taskleiste kommt dann zurück.
 **Notfall:** `GlassBar.exe --restore-taskbar` holt die Windows-Taskleiste zurück, auch nach einem Absturz.
 **Deinstallieren:** GlassBar beenden und den Programmordner löschen (für die Einstellungen zusätzlich `%AppData%\GlassBar`).

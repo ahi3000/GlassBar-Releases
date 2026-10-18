@@ -82,6 +82,8 @@ Requirements: Windows 11 and the **[.NET 10 Desktop Runtime](https://dotnet.micr
 
 **Updates:** Settings → System → switch on the automatic update check. GlassBar then looks at this page every 6 hours – without an account – and installs a new version with one click; your settings in `%AppData%\GlassBar` are kept.
 
+**Checksum:** every zip has a `.sha256` file next to it. The updater checks it before installing; to check a manual download, run `Get-FileHash GlassBar-<version>-win-x64.zip` and compare with the file's content.
+
 **Quit:** Right-click the dock → “Quit GlassBar”, or run `GlassBar.exe --exit`. The taskbar comes back.
 **Emergency:** `GlassBar.exe --restore-taskbar` brings the Windows taskbar back, even after a crash.
 **Uninstall:** Quit GlassBar and delete the program folder (and `%AppData%\GlassBar` for the settings).
