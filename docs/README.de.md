@@ -74,11 +74,19 @@ Ein Klick auf ein Modul öffnet eine eigene Karte darüber: Kalender, Wetter, Sc
 
 ## Installation
 
-1. Unter **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases/latest)** die Zip für deinen PC laden: `win-x64` (die meisten PCs) oder `win-arm64`.
-2. Entpacken, z. B. nach `%LOCALAPPDATA%\Programs\GlassBar`.
-3. `GlassBar.exe` starten. Keine Admin-Rechte, kein GitHub-Konto nötig.
+**Am einfachsten:** unter **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases/latest)** **`GlassBar-<Version>-setup.exe`** laden und doppelklicken. Keine Admin-Rechte, kein GitHub-Konto, keine .NET-Installation nötig – legt Startmenü-Einträge an, optional „Mit Windows starten“ und eine Deinstallation unter Windows-Einstellungen → Apps.
 
-Voraussetzungen: Windows 11 und die **[.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)** (x64 bzw. Arm64).
+**Ohne Installation (Zip):**
+
+| Datei | Für |
+|---|---|
+| `GlassBar-<Version>-win-x64-standalone.zip` | bringt .NET mit – läuft auf jedem Windows-11-PC (auch Arbeits-PCs ohne Admin-Rechte) |
+| `GlassBar-<Version>-win-x64.zip` | kleiner, braucht die **[.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)** |
+| `…-win-arm64…` | dasselbe für Arm-PCs |
+
+Entpacken, z. B. nach `%LOCALAPPDATA%\Programs\GlassBar`, und `GlassBar.exe` starten.
+
+**Umzug von einem anderen PC:** dort Einstellungen → System → „Einrichtung übertragen“ → Exportieren, hier die Datei im Einrichtungs-Assistenten oder unter demselben Punkt wählen (Tokens werden nicht übertragen).
 
 **Updates:** Einstellungen → System → automatische Update-Prüfung einschalten. GlassBar schaut dann alle 6 Stunden auf dieser Seite nach – ohne Konto – und installiert neue Versionen per Klick; deine Einstellungen in `%AppData%\GlassBar` bleiben erhalten.
 
@@ -86,7 +94,7 @@ Voraussetzungen: Windows 11 und die **[.NET 10 Desktop Runtime](https://dotnet.m
 
 **Beenden:** Rechtsklick aufs Dock → „GlassBar beenden“ oder `GlassBar.exe --exit`. Die Taskleiste kommt dann zurück.
 **Notfall:** `GlassBar.exe --restore-taskbar` holt die Windows-Taskleiste zurück, auch nach einem Absturz.
-**Deinstallieren:** GlassBar beenden und den Programmordner löschen (für die Einstellungen zusätzlich `%AppData%\GlassBar`).
+**Deinstallieren:** mit dem Setup über Windows-Einstellungen → Apps; sonst GlassBar beenden und den Programmordner löschen (für die Einstellungen zusätzlich `%AppData%\GlassBar`).
 
 ## Bedienung
 

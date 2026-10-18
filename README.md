@@ -74,11 +74,19 @@ Clicking a module opens its own card above the dock: calendar, weather, quick se
 
 ## Installation
 
-1. Download the zip for your PC from **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases/latest)**: `win-x64` (most PCs) or `win-arm64`.
-2. Extract it, e.g. to `%LOCALAPPDATA%\Programs\GlassBar`.
-3. Start `GlassBar.exe`. No admin rights, no GitHub account needed.
+**Easiest:** download **`GlassBar-<version>-setup.exe`** from **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases/latest)** and double-click it. No admin rights, no GitHub account, no .NET installation needed – it adds start menu entries, an optional “start with Windows” and an uninstaller under Windows Settings → Apps.
 
-Requirements: Windows 11 and the **[.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)** (x64 or Arm64).
+**Without installing (zip):**
+
+| File | For |
+|---|---|
+| `GlassBar-<version>-win-x64-standalone.zip` | brings .NET along – works on any Windows 11 PC (also work PCs without admin rights) |
+| `GlassBar-<version>-win-x64.zip` | smaller, needs the **[.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)** |
+| `…-win-arm64…` | the same for Arm PCs |
+
+Extract it, e.g. to `%LOCALAPPDATA%\Programs\GlassBar`, and start `GlassBar.exe`.
+
+**Moving from another PC:** there, Settings → System → “Transfer setup” → Export; here, pick the file in the first-run assistant or under the same entry (no tokens are transferred).
 
 **Updates:** Settings → System → switch on the automatic update check. GlassBar then looks at this page every 6 hours – without an account – and installs a new version with one click; your settings in `%AppData%\GlassBar` are kept.
 
@@ -86,7 +94,7 @@ Requirements: Windows 11 and the **[.NET 10 Desktop Runtime](https://dotnet.micr
 
 **Quit:** Right-click the dock → “Quit GlassBar”, or run `GlassBar.exe --exit`. The taskbar comes back.
 **Emergency:** `GlassBar.exe --restore-taskbar` brings the Windows taskbar back, even after a crash.
-**Uninstall:** Quit GlassBar and delete the program folder (and `%AppData%\GlassBar` for the settings).
+**Uninstall:** with the setup via Windows Settings → Apps; otherwise quit GlassBar and delete the program folder (and `%AppData%\GlassBar` for the settings).
 
 ## Usage
 
