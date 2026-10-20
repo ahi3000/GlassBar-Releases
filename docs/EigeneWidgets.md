@@ -1,5 +1,7 @@
 # Eigene Widgets für GlassBar
 
+*English version: [CustomWidgets.md](CustomWidgets.md).*
+
 Eigene Widgets brauchen kein C# und kein Neubauen von GlassBar. Ein Widget ist ein Ordner mit einer `widget.json`, die einem
 Skript, einer URL oder einer Datei sagt, woher die Daten kommen. GlassBar zeigt das Ergebnis als Modul im Dock und als
 Karte im Widget-Panel.

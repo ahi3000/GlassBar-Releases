@@ -1,5 +1,7 @@
 # GlassBar – Handbuch
 
+*English version: [Manual.md](Manual.md).*
+
 Ein schwebendes Dock im Graphit-Look als Ersatz für die Windows-11-Taskleiste. Die Akzentfarbe kommt aus dem Albumcover.
 
 ## Build & Start

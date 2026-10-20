@@ -39,7 +39,7 @@ Clicking a module opens its own card above the dock: calendar, weather, quick se
 | 📝 **Quick notes** | Ctrl+Alt+N opens an input box anywhere, link notes to appointments, hint in the calendar card and the notch, reminder 5 minutes before |
 | 🏠 **Smart home** | Home Assistant: lights with brightness, switches, scenes, scripts, blinds, sensors and thermostats; token encrypted with DPAPI |
 | 🧩 **Widgets** | System monitor (with CPU, GPU and RAM model), network, clipboard, Pomodoro, notes, downloads, recycle bin, microphone & camera, device battery, world clock, GitHub, services and stock prices |
-| 🛠️ **Custom widgets** | A folder with `widget.json` plus any script (PowerShell, Python …), URL or file becomes a dock module with its own card, its own settings fields, four templates and live reload. [Guide (German)](docs/EigeneWidgets.md) |
+| 🛠️ **Custom widgets** | A folder with `widget.json` plus any script (PowerShell, Python …), URL or file becomes a dock module with its own card, its own settings fields, four templates and live reload. [Guide](docs/CustomWidgets.md) |
 | 🎨 **Design studio** | 17 presets (dark and light), custom colors with a second accent as gradient, accent shimmer, corners, frame, edges, shadow, grain, icon spacing, dock height and font; export to and import from a file |
 | 💊 **Notch mode** | A slim pill at the top that expands on hover with music, weather, next appointment and Claude, with live activities for downloads, timers, Claude Code and CI runs |
 | ⚙️ **Settings** | Grouped navigation, a live preview beside every page that shows each change on a mini dock, profiles that switch automatically (battery, power supply, monitors) |
@@ -115,7 +115,7 @@ The interface is available in English and German.
 
 ## More
 
-Building your own widgets: **[docs/EigeneWidgets.md](docs/EigeneWidgets.md)** (German). All details on modules, data storage and troubleshooting are in the **[manual](docs/Handbuch.md)** (German), the version history is under **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases)**.
+Building your own widgets: **[docs/CustomWidgets.md](docs/CustomWidgets.md)**. All details on modules, data storage and troubleshooting are in the **[manual](docs/Manual.md)**, the version history is under **[Releases](https://github.com/ahi3000/GlassBar-Releases/releases)**.
 
 ## Privacy
 
